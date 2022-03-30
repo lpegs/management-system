@@ -82,7 +82,7 @@ def addItem():
 def delete():
 
     itemid = info1.get()
-    # deleting from books and book_issued tables (it was supposed to be a books system, that's why the table names were given these names)
+    # deleting from books and book_issued tables (it was supposed to be a books system, that's why these table names were given)
     deleteItem = "delete from books where bid = " + itemid
     deleteIssue = "delete from books_issued where bid = " + itemid
 
